@@ -65,7 +65,7 @@ public class MainActivity extends InstrumentedActivity {
 					if (!ExampleUtil.isEmpty(extras)) {
 						showMsg.append(KEY_EXTRAS + " : " + extras + "\n");
 					}
-					Log.i("hhhhhhhhhhhhh", "onReceive: 这里获取的是啥？"+showMsg.toString());
+					Log.i("kkkkkkkkkkkkkkkkk", "onReceive: 这里获取的是啥？"+showMsg.toString());
 				}
 			} catch (Exception e){
 			}
