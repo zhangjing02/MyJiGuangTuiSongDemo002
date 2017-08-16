@@ -22,8 +22,9 @@ import cn.jpush.android.api.JPushInterface;
  * 2) 接收不到自定义消息
  */
 public class MyReceiver extends BroadcastReceiver {
-	private static final String TAG = "111111111JIGUANG-Example";
+	private static final String TAG = "ZiDingyiJIGUANG-Example";
 
+	// TODO: 2017/8/16 我们以后在这里深究怎么添加TAG和别名，以实现精准推送了 
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		try {
